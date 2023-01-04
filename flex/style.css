@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: block;
+    min-width: auto;
+    min-height: 100vh;    
+}
+header{
+    height: 90px;
+    background-color: grey;
+    color: white;
+    padding: 40px 600px;
+}
+main{
+    display: flex;
+    flex-flow: row ;
+   
+    height: 400px;
+}
+nav{
+    background-color: lightskyblue;
+    width: 300px;
+    padding: 200px 130px;
+    color: white;
+}
+section{
+    background-color: red;
+    width: 800px;
+    color: white;
+    padding: 200px 300px;
+}
+aside{
+    background-color: green;
+    width: 200px;
+    color: white;
+    padding: 200px 70px;
+}
+footer{
+    height: 90px;
+    background-color: grey;
+    color: white;
+    padding: 40px 600px;
+}

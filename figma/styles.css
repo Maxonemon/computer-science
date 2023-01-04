@@ -1,0 +1,180 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Poppins:ital,wght@0,300;1,100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+body{
+    height: 100vh;
+    overflow: hidden;
+   
+}
+.text h1{
+    font-family:  'Creepster', cursive;
+}
+section{
+    background:  linear-gradient(90.24deg, #151D53 0.19%, #000000 99.78%);
+    
+    display: flex;
+    overflow: hidden;
+   
+    justify-content: space-between;
+    height: 100vh;
+  
+}
+.container-left{
+    width: 400px;
+    height: 400px;
+    
+    color: white;
+    margin: 60px 60px;
+    
+   
+}
+.container-right{
+    width: 750px;
+    height: 450px;
+    margin-top: 70px;
+    border-radius: 7.03px 0 0 7.03px;
+    background: linear-gradient(136.16deg, rgba(255, 255, 255, 0.152) 12.91%, rgba(255, 255, 255, 0.2) 87.68%);
+}
+img[alt="bat2"]{
+   
+    margin: 0 0 60px 275px;
+}
+img[alt="ghost"]{
+   
+    margin: 150px 0 0 120px;
+}
+img[alt="bat1"]{
+   
+    margin: 30px 0 0 0;
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    flex-direction: column;
+}
+.container-left h1{
+    font-size: 70px;
+    margin-bottom: 15px;
+
+}
+.text p{
+    font-size: 14px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+   
+    line-height: 180%;
+}
+.text h5{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13.7083px;
+    line-height: 21px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+img[alt="divider"]{
+    position: relative;
+    left: 30px;
+    top: 5px;
+}
+img[alt="skull"]{
+    position: relative;
+    right: 41px;
+    top: 2px;
+}
+.logo{
+    position: relative;
+    left: 50px;
+    top: 10px;
+}
+menu{
+    position: relative;
+    right: 60px;
+    display: inline-block;
+    top: 20px;
+
+}
+menu a{
+    margin-right: 20px;
+    color: white;
+    font-size: 13px;
+}
+
+.btn{
+    position: relative;
+    left: 20px;
+    border: 1.1px solid white;
+    padding: 5px 12px;
+    border-radius: 20px;
+}
+.text2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    position: relative;
+    top: 65px;
+    width: 300px;
+    left: 50px;
+}
+.text2 p{
+    font-size: 13px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 10px;
+    line-height: 180%;
+}
+.text2 h5{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13.7083px;
+    line-height: 21px;
+    margin-bottom: 20px;
+    margin-top: 15px; 
+}
+.text2 h2{
+    font-family:  'Creepster', cursive;
+    font-size: 50px;
+}
+
+.left-left{
+    position: relative;
+    
+    background: linear-gradient(142.97deg, rgba(0, 255, 209, 0.21) 17.43%, rgba(255, 238, 84, 0.22) 73.23%);
+    filter: blur(118.358px);
+    
+    
+    width: 240px;
+    height: 221px;
+    left: 520px;
+    bottom: 150px;
+    
+    
+    z-index: 1000;
+}
+img[ alt="skull1"]{
+    position: relative;
+    bottom: 500px;
+    left: 400px;
+    z-index: 100000;
+}

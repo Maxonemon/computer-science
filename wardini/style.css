@@ -1,0 +1,359 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+ 
+}
+body{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+}
+.box-grid{
+    min-height: 100vh;
+    background-color: #618b89;
+    min-width: 100vh;
+    display: grid;
+    grid-template-columns: repeat(25, 4%);
+    grid-template-rows: repeat(25, 4%);
+}
+/* black */
+.border-neck-left{
+    background-color: black;
+    grid-area: 16/7/26/8 ;
+}
+.border-neck-right{
+    background-color: black;
+    grid-area: 24/11/26/12 ;
+}
+.border-ear{
+    background-color: black;
+    grid-area: 14/6/17/7;
+}
+.border-head-left-1{
+    background-color: black;
+    grid-area: 9/7/14/8;
+}
+.border-head-left-2{
+    background-color: black;
+    grid-area: 8/8/9/9;
+}
+
+.border-head-right-1{
+    background-color: black;
+    grid-area: 9/17/11/18;
+}
+.border-head-right-2{
+    background-color: black;
+    grid-area: 8/16/9/17;
+}
+.border-hair-left-1{
+    background-color: black;
+    grid-area: 7/9/8/10;
+}
+.border-hair-left-2{
+    background-color: black;
+    grid-area: 6/10/7/11;
+}
+.border-hair-left-3{
+    background-color: black;
+    grid-area: 5/11/6/12;
+}
+.border-hair-left-4{
+    background-color: black;
+    grid-area: 4/12/5/13;
+}
+.border-hair-right-1{
+    background-color: black;
+    grid-area: 7/15/8/16;
+}
+.border-hair-right-2{
+    background-color: black;
+    grid-area: 3/14/8/15;
+}
+.border-hair-right-3{
+    background-color: black;
+    grid-area: 3/13/4/14;
+}
+.border-nose{
+    background-color: black;
+    grid-area: 17/13/18/15;
+}
+.border-glasses-bar{
+    background-color: black;
+    grid-area: 12/13/13/14;
+}
+.border-glasses-left-top{
+    background-color: black;
+    grid-area: 11/8/12/13;
+}
+.border-glasses-left-right{
+    background-color: black;
+    grid-area: 12/8/15/9;
+}
+.border-glasses-left-bottom{
+    background-color: black;
+    grid-area: 15/9/16/12;
+}
+.border-glasses-left-left{
+    background-color: black;
+    grid-area: 12/12/15/13;
+}
+.border-glasses-right-top{
+    background-color: black;
+    grid-area: 11/14/12/19;
+}
+.border-glasses-right-right{
+    background-color: black;
+    grid-area: 12/18/15/19;
+}
+.border-glasses-right-bottom{
+    background-color: black;
+    grid-area: 15/15/16/18;
+}
+.border-glasses-right-left{
+    background-color: black;
+    grid-area: 12/14/15/15;
+}
+.border-face-top{
+    background-color: black;
+    grid-area: 16/17/19/18;
+}
+.border-face-bottom{
+    background-color: black;
+    grid-area: 22/16/23/17;
+}
+.border-bear{
+    background-color: black;
+    grid-area: 23/12/24/16;
+}
+.border-mouth{
+    background-color: black;
+    grid-area: 20/12/21/15;
+}
+.border-tabac-top{
+    background-color: black;
+    grid-area: 19/15/20/21;
+}
+.border-tabac-bottom{
+    background-color: black;
+    grid-area: 21/15/22/21;
+}
+.border-tabac-center{
+    background-color: black;
+    grid-area: 20/21/21/22;
+}
+/* skin */
+.skin-neck-1{
+    background-color: #c49226;
+    grid-area: 23/8/26/11;
+}
+.skin-neck-2{
+    background-color: #c49226;
+    grid-area: 22/8/23/10;
+}
+.skin-neck-3{
+    background-color: #c49226;
+    grid-area: 21/8/22/9;
+}
+.skin-ear{
+    background-color: #c49226;
+    grid-area: 14/7/16/8;
+}
+.skin-face-1{
+    background-color: #c49226;
+    grid-area: 15/8/17/9;
+}
+
+.skin-face-2{
+    background-color: #c49226;
+    grid-area: 16/9/18/10;
+}
+
+.skin-face-3{
+    background-color: #c49226;
+    grid-area: 16/10/19/13;
+}
+
+.skin-face-4{
+    background-color: #c49226;
+    grid-area: 16/13/17/17;
+}
+
+.skin-face-5{
+    background-color: #c49226;
+    grid-area: 17/15/18/17;
+}
+
+.skin-face-6{
+    background-color: #c49226;
+    grid-area: 18/13/19/16;
+}
+
+.skin-face-7{
+    background-color: #c49226;
+    grid-area: 15/12/16/15;
+}
+
+.skin-face-8{
+    background-color: #c49226;
+    grid-area: 13/13/15/14;
+}
+
+.skin-face-9{
+    background-color: #c49226;
+    grid-area: 10/13/12/14;
+}
+
+.skin-face-10{
+    background-color: #c49226;
+    grid-area: 8/14/11/16;
+}
+
+.skin-face-12{
+    background-color: #c49226;
+    grid-area: 9/16/11/17;
+}
+.skin-face-13{
+    background-color: #c49226;
+    grid-area: 9/11/11/13;
+}
+.skin-face-14{
+    background-color: #c49226;
+    grid-area: 8/9/9/12;
+}
+.skin-face-15{
+    background-color: #c49226;
+    grid-area: 9/8/10/10;
+}
+.skin-face-16{
+    background-color: #c49226;
+    grid-area: 10/8/11/9;
+}
+.skin-face-17{
+    background-color: #c49226;
+    grid-area: 10/10/11/11;
+}
+.skin-face-18{
+    background-color: #d7a73f;
+    grid-area: 10/9/11/10;
+}
+.skin-face-19{
+    background-color: #d7a73f;
+    grid-area: 9/10/10/11;
+}
+/* tabac */
+.tabac-1{
+    background-color:whitesmoke;
+    grid-area: 20/15/21/20;
+}
+.tabac-2{
+    background-color: rgb(255, 66, 4);
+    grid-area: 20/20/21/21;
+}
+/* bear */
+.bear-1{
+    background-color: #573f12;
+    grid-area: 17/8/21/9;
+}
+.bear-2{
+    background-color: #573f12;
+    grid-area: 18/9/22/10;
+}
+.bear-3{
+    background-color: #573f12;
+    grid-area: 19/10/23/11;
+}
+.bear-4{
+    background-color: #573f12;
+    grid-area: 19/11/24/12;
+}
+.bear-5{
+    background-color: #573f12;
+    grid-area: 22/12/23/16;
+}
+.bear-6{
+    background-color: #573f12;
+    grid-area: 21/12/22/15;
+}
+.bear-7{
+    background-color:#573f12   ;
+    grid-area: 19/12/20/15;
+}
+.bear-8{
+    background-color: #573f12;
+    grid-area: 18/16/19/17;
+}
+/* hair */
+.hair-1{
+    background-color: #573f12;
+    grid-area: 4/13/10/14;
+}
+.hair-2{
+    background-color: #573f12;
+    grid-area: 5/12/9/13;
+}
+.hair-3{
+    background-color:#573f12;
+    grid-area: 7/11/8/12;
+}
+.hair-4{
+    background-color:#32240b;
+    grid-area: 6/11/7/12;
+}
+.hair-5{
+    background-color:#32240b;
+    grid-area: 7/10/8/11;
+}
+
+/* glasses */
+.glasses-left-1{
+    background-color: #272f6f;
+    grid-area: 12/9/13/12;
+}
+.glasses-left-2{
+    background-color: #2f387c;
+    grid-area: 13/9/14/12;
+}
+.glasses-left-3{
+    background-color: #343f8f;
+    grid-area: 14/9/15/12;
+}
+.glasses-right-1{
+    background-color: #272f6f;
+    grid-area: 12/15/13/18;
+}
+.glasses-right-2{
+    background-color: #2f387c;
+    grid-area: 13/15/14/18;
+}
+.glasses-right-3{
+    background-color: #343f8f;
+    grid-area: 14/15/15/18;
+}
+/* smoke */
+.smoke-1{
+    background-color: #405f5f;
+    grid-area: 14/20/18/21;
+
+}
+.smoke-2{
+    background-color: #405f5f;
+    grid-area: 13/21/14/22;
+}
+.smoke-3{
+    background-color: #405f5f;
+    grid-area: 12/20/13/21;
+}
+.smoke-4{
+    background-color: #405f5f;
+    grid-area: 11/21/12/22;
+}
+
+
+
+
+
+
+

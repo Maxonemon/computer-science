@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+body{
+
+box-sizing: border-box;
+font-family: 'Nunito', sans-serif;
+font-size: 15px;
+color: #F3F3F3;
+font-weight: 600;
+margin: 20px 20px;
+line-height: 30px;
+
+ background-image: linear-gradient(
+      115deg,
+      rgba(58, 58, 158, 0.8),
+      rgba(136, 136, 206, 0.7)
+    ),
+    url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+}
+form{
+  background-color:  rgba(27, 27, 50, 0.8);
+ margin: 20px 20px;
+ width: 720px;
+ margin-left: auto;
+ margin-right: auto;
+ padding: 20px 20px;
+ margin-top: 30px;
+ border-radius: 5px 0%;
+ 
+}
+fieldset{
+  border: none;
+  
+  
+}
+label{
+  display: block
+  
+}
+input[type="text"],input[type="email"],input[type="number"],select{
+  display: block;
+  width: 100%;
+  height: 37px;
+ 
+
+}
+h1,p{
+  text-align: center;
+}
+h1{
+  font-size: 40px
+}
+p{
+  font-size: 20px;
+}
+label{
+  font-size: 20px;
+
+}
+select{
+  color: #495057;
+  
+}
+input,select,textarea{
+font-size: 16px;
+border: none;
+border-radius: 3px;
+margin-bottom: 20px;
+margin-top: 10px;
+
+}
+input[type="radio"],input[type="checkbox"]{
+  width: 25px;
+  height: 25px;
+  margin-top: 1px
+}
+textarea{
+  max-width: 690px;
+  min-width:690px;
+ 
+  height: 100px;
+  overflow: hidden;
+}
+input[type="submit"]{
+  background-color: #37af65;
+  width: 100%;
+  height: 50px;
+  color: #F3F3F3;
+  margin: 0 auto ;
+}
+input[type="submit"]:active{
+  box-shadow: 5px 5px 5px #1b1b35;
+  color: rgba(27, 27, 50, 0.8);
+}
+.ahh{
+  overflow: hidden;
+  width: 100%;
+}

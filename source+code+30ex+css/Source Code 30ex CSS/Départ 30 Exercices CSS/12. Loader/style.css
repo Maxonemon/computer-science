@@ -1,0 +1,42 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    background: #f1f1f1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contain-dot{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+}
+.point {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #000;
+  margin: 0 10px;
+  
+}
+@keyframes loader {
+  100%{
+    transform: translateY(-30px)
+  }
+}
+.dot1{
+  animation: loader infinite ease 0.3s alternate;
+}
+.dot2{
+  animation: loader infinite ease 0.3s 0.05s alternate;
+}
+.dot3{
+  animation: loader infinite ease 0.3s  0.1s alternate;
+}

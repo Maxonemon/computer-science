@@ -1,0 +1,17 @@
+body{
+    background-color: black;
+
+}
+.grid{
+    margin: auto ;
+    width: 200px;
+    height: 200px;
+    display: grid;
+    grid-template: repeat(3, 3fr) / repeat(3, 3fr);
+    grid-gap: 10px;
+    background-color: black;
+}
+
+.box{
+    background-color: rgb(224, 224, 28);
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+     <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>maguette sall survey form</h1>
+    <p>Thank you for taking the time to help us improve the platform</p>
+    <form action='https://register-demo.freecodecamp.org'>
+      <fieldset>
+        <label for="name">Name<input id="name" placeholder="Enter your name" name="name" type="text" required /></label>
+        <label for="email">Email<input id="email" placeholder="Enter your email" name="email" type="email" required /></label>
+        <label for="email">Age<input id="email" name="age" type="number" placeholder="Age" min="10"  max="99" required /></label>
+      </fieldset>
+      <fieldset>
+        <label for="current-role">Which option best describes your current role?
+          <select id="current-role" name="current-role">
+<option value="">Select current role</option>
+<option value="1">Student</option>
+<option value="2">Full Time Job</option>
+<option value="3">Full Time Learner</option>
+<option value="4">Prefer not to say</option>
+<option value="5">0ther</option>
+          </select>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label><input id="recommend" type="radio" name="recommend" class="inline" /> Definitely</label>
+        <label><input id="recommend" type="radio" name="recommend" class="inline" /> Maybe</label>
+        <label><input id="recommend" type="radio" name="recommend" class="inline" />Not sure</label> 
+      </fieldset>
+      <fieldset>
+        <label for="favorite-feature">What is your favorite feature of freeCodeCamp?
+<select id="favorite-feature" name="favorite-feature">
+<option value="">Select an option</option>
+<option value="1">Challenges</option>
+<option value="2">Projects</option>
+<option value="3">Community</option>
+<option value="4">Open source</option>
+
+</select>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label>What would you like to see improved? (Check all that apply)</label>
+        <br>
+        <label><input id="improved" type="checkbox"  class="inline" /> Front-end Projects</label>
+        <label><input id="improved" type="checkbox"  class="inline" /> Back-end Projects</label>
+        <label><input id="improved" type="checkbox"  class="inline" /> Data Visualization</label>
+        <label><input id="improved" type="checkbox"  class="inline" /> Challenges</label>
+        <label><input id="improved" type="checkbox"  class="inline" /> Open Source Community</label>
+        <label><input id="improved" type="checkbox"  class="inline" /> Gitter help rooms</label>
+        <label><input id="improved" type="checkbox"  class="inline" /> Videos</label>
+        <label><input id="improved" type="checkbox"  class="inline" /> City Meetups</label>
+        <label><input id="improved" type="checkbox"  class="inline" /> Wiki</label>
+        <label><input id="improved" type="checkbox"  class="inline" /> Forum</label>
+        <label><input id="improved" type="checkbox"  class="inline" /> Additional Courses</label>
+      </fieldset>
+      <fieldset class="ahhh">
+          <label>Any comments or suggestions?</label>
+          <textarea  placeholder="Enter your comment here..."></textarea>
+      </fieldset>
+      <fieldset>
+        <input type="submit" value="Submit"  />
+      </fieldset>
+
+    </form>
+  </body>
+</html>
